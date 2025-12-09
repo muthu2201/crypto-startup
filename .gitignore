@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Production
+dist/
+build/
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+# But keep .env.example for reference
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/migrations/
+
+# Next.js
+.next/
+out/
+
+# Misc
+*.pem
+.cache/
+
